@@ -1,4 +1,4 @@
-import { Input } from "~/components/ui/input"
+
 import { Button } from "~/components/ui/button"
 import { Text } from "~/components/ui/text"
 import { Flex } from "~/components/ui/flex"
@@ -14,17 +14,17 @@ export default function ContactPage() {
           <div class="bg-white rounded-lg border p-6 space-y-4">
             <div>
               <Text variant="body2" class="block text-sm font-medium mb-1">Name</Text>
-              <Input type="text" placeholder="Your name" />
+              <input type="text" placeholder="Your name" />
             </div>
             
             <div>
               <Text variant="body2" class="block text-sm font-medium mb-1">Email</Text>
-              <Input type="email" placeholder="your@email.com" />
+              <input type="email" placeholder="your@email.com" />
             </div>
             
             <div>
               <Text variant="body2" class="block text-sm font-medium mb-1">Subject</Text>
-              <Input type="text" placeholder="How can we help?" />
+              <input type="text" placeholder="How can we help?" />
             </div>
             
             <div>
