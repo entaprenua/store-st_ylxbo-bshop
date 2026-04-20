@@ -279,4 +279,5 @@ export const CartLoading = (props: { class?: string }) => {
   )
 }
 
-export { CartItemCheckbox }
+
+
